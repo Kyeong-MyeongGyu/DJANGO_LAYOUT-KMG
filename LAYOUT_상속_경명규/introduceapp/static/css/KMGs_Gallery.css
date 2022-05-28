@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'SuncheonB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/SuncheonB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'SuncheonB';
+    background-image: url(https://search.pstatic.net/sunny/?src=https%3A%2F%2Fi.pinimg.com%2F736x%2Fbe%2F6b%2F3f%2Fbe6b3fe8d1f6c53c304ed25af6edf0aa--in-the-ocean-over-the-rainbow.jpg&type=sc960_832);
+    background-size: cover;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    gap: 20px;
+    align-items: center;
+    margin-left: 600px;
+}
+
+#title{
+    font-size: 40px;
+    text-align: center;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.grid-item{
+    text-align: center;
+}
